@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Enable Flexbox on body and arrange vertically */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Flexbox row layout for main */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article: occupies 2/3 width */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Aside: occupies 1/3 width */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Optional: add some spacing for clarity */
+article, aside {
+  padding: 20px;
+  box-sizing: border-box;
+}
