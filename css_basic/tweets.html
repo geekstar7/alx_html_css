@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="base.css" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Embedded Tweet</title>
+  <title>My Tweets</title>
+  <link href="base.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="works_on_smartphone">
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <h1>Check Out This Tweet</h1>
+  <main>
+    <article>
+      <h1>Check Out This Tweet</h1>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          The first version of ChatGPT launched six months ago today. Hard to believe it’s only been that long!
+        </p>
+        &mdash; Sam Altman (@sama)
+        <a href="https://twitter.com/sama/status/1663975855291877377">May 31, 2023</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-  <!-- Embedded Tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      The first version of ChatGPT launched six months ago today. 
-      Hard to believe it’s only been that long!
-    </p>
-    &mdash; Sam Altman (@sama) 
-    <a href="https://twitter.com/sama/status/1663975855291877377">May 31, 2023</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
-  <p><a href="index.html">← Back to Homepage</a></p>
-
+  <footer>
+    <p>Made by Stallone Mathenge - <a href="https://github.com/yourusername" target="_blank">here</a>.</p>
+  </footer>
 </body>
 </html>
