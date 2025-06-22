@@ -43,12 +43,7 @@ This project is a **responsive one-page website** built with **HTML, CSS, and Ja
 
 ---
 
-## 📸 Screenshots
 
-![Desktop View](screenshots/desktop.png)
-![Mobile View](screenshots/mobile.png)
-
-*(You can add your own screenshots in a `screenshots/` folder.)*
 
 ---
 
@@ -74,7 +69,4 @@ This project is a **responsive one-page website** built with **HTML, CSS, and Ja
 Front-End Developer in training | ALX Africa
 
 ---
-
-## 📢 License
-
-This project is for educational purposes under the ALX SE Program. No commercial rights implied unless specified.
+.
